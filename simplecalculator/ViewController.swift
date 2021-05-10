@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var value2: UITextField!
     
+    print (" This is a simple calculator app")
+    
     @IBAction func Add(_ sender: Any)
     {
         var textValue1 = (Int(value1.text!)!)
